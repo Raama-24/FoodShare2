@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = 'http://localhost:5000'; // replace with deployed backend URL
+const API_URL = import.meta.env.VITE_ADMIN_API;
 
 export const verifyUser = async (uid, verified = true) => {
   const res = await axios.post(`${API_URL}/verifyUser`, { uid, verified });
