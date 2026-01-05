@@ -14,3 +14,16 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🙌 Credits & Acknowledgements
+
+- Firebase Authentication & Firestore – used for secure login and database
+- Google Maps API – used for location-based food discovery
+- React & Tailwind CSS – frontend UI development
+- Icons from Lucide React
+- Inspiration from real-world food donation platforms
+-  UI components inspired by open-source projects and documentation
+
+
+---
